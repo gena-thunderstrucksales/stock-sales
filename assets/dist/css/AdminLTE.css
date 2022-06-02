@@ -583,10 +583,8 @@ th {
 }
 
 
-/*
-* Component: Sidebar
-* ------------------
-*/
+/* Component: Sidebar
+------------------------------------------------------ */
 
 .main-sidebar {
     position: absolute;
@@ -601,6 +599,7 @@ th {
     width: 350px;
     padding-top: 0px;
     bottom: 10px;
+    background: var(--bg_main);
     white-space: white-space;
     overflow: scroll;
 }
@@ -2262,55 +2261,33 @@ the class .animated-dropdown-menu to the .dropdown-menu ul (or ol)*/
     left: auto;
 }
 
-.box-header>.box-tools .dropdown-menu>li>a {
-    color: #444 !important;
-}
-
+.box-header>.box-tools .dropdown-menu>li>a {color: #444 !important;}
 .btn-box-tool {
     padding: 5px;
     font-size: 12px;
     background: transparent;
     color: #97a0b3;
 }
-
 .open .btn-box-tool,
 .btn-box-tool:hover {
     color: #606c84;
 }
-
-.btn-box-tool.btn:active {
-    box-shadow: none;
-}
-
+.btn-box-tool.btn:active {box-shadow: none;}
 .box-body {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     border-bottom-right-radius: 3px;
     border-bottom-left-radius: 3px;
     padding-bottom: 2px;
-    margin-bottom: 15px;
 }
-
 .no-header .box-body {
     border-top-right-radius: 3px;
     border-top-left-radius: 3px;
 }
-
-.box-body>.table {
-    margin-bottom: 0;
-}
-
-.box-body .fc {
-    margin-top: 5px;
-}
-
-.box-body .full-width-chart {
-    margin: -19px;
-}
-
-.box-body.no-padding .full-width-chart {
-    margin: -9px;
-}
+.box-body>.table {margin-bottom: 0;}
+.box-body .fc {margin-top: 5px;}
+.box-body .full-width-chart {margin: -19px;}
+.box-body.no-padding .full-width-chart {margin: -9px;}
 
 .box-body .box-pane {
     border-top-left-radius: 0;
