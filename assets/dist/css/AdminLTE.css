@@ -14,11 +14,11 @@
 
  :root {
     --main_color: #000700;
-    --bt_green: #79bc22;
-    --label_login: #69935d;
-    --label_menu: #fff;
+    --bt_green: #c10230;
+    --label_login: #ffffff;
+    --label_menu: #ffffff;
     --line_menu: #c10230;
-    --footer_menu: #2c6824;
+    --main_text: #000700;
     --background_desktop: #f4f4f4;
     --background_block_desktop: #dddddd;
     --status_padding: #FFEC00;
@@ -59,7 +59,7 @@ body {
     font-weight: 400;
     overflow-x: hidden;
     overflow-y: auto;
-    color: var(--footer_menu);
+    color: var(--main_text);
 }
 
 
@@ -355,16 +355,16 @@ th {
 }
 
 .main-header #navbar-search-input.form-control::-moz-placeholder {
-    color: var(--footer_menu);
+    color: var(--main_text);
     opacity: 1;
 }
 
 .main-header #navbar-search-input.form-control:-ms-input-placeholder {
-    color: var(--footer_menu);
+    color: var(--main_text);
 }
 
 .main-header #navbar-search-input.form-control::-webkit-input-placeholder {
-    color: var(--footer_menu);
+    color: var(--main_text);
 }
 
 .main-header .navbar-custom-menu,
@@ -1617,7 +1617,7 @@ the class .animated-dropdown-menu to the .dropdown-menu ul (or ol)*/
 .form-control::-moz-placeholder,
 .form-control:-ms-input-placeholder,
 .form-control::-webkit-input-placeholder {
-    color: var(--footer_menu);
+    color: var(--main_text);
     opacity: 1;
 }
 
@@ -3177,7 +3177,7 @@ the class .animated-dropdown-menu to the .dropdown-menu ul (or ol)*/
 }
 
 .alert-success {
-    border-color: var(--footer_menu);
+    border-color: var(--main_text);
 }
 
 .alert-danger,
@@ -6385,7 +6385,7 @@ table.text-center th {
 .alert-success,
 .label-success,
 .modal-success .modal-body {
-    background-color: var(--footer_menu) !important;
+    background-color: var(--main_text) !important;
 }
 
 .bg-navy {
@@ -7068,7 +7068,7 @@ table.text-center th {
 .footer-menu {
     width: 350px;
     height: 120px;
-    background-color: var(--footer_menu);
+    background-color: var(--main_text);
     position: fixed;
     z-index: 900;
     bottom: 0;
@@ -7562,7 +7562,7 @@ ul.wysihtml5-toolbar>li {
 }
 
 .select2-container--default .select2-selection--single .select2-selection__rendered {
-    color: var(--footer_menu) !important;
+    color: var(--main_text) !important;
     line-height: 28px !important;
 }
 
