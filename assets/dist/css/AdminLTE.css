@@ -13,19 +13,19 @@
  */
 
  :root {
-    --main_color: #000701;
+    --main_color: #000700;
     --bt_green: #79bc22;
     --label_login: #69935d;
-    --label_menu: #6bae1d;
-    --line_menu: #b6d191;
+    --label_menu: #fff;
+    --line_menu: #c10230;
     --footer_menu: #2c6824;
     --background_desktop: #f4f4f4;
-    --background_block_desktop: #dbdfd5;
+    --background_block_desktop: #dddddd;
     --status_padding: #FFEC00;
     --status_approved: #15A6DB;
     --status_shipped: #B6D192;
     --status_delivered: #79BC22;
-    --status_canceled: #FF5800;
+    --status_canceled: #c10230;
     --label_item_form: #8CA586;
     --line_vertical_item: #C1C9B6;
     --rudius_border: 6px;
