@@ -2015,6 +2015,7 @@ the class .animated-dropdown-menu to the .dropdown-menu ul (or ol)*/
 /* Component: Box
 ------------------------------------------ */
 .box {
+    border: 1px solid var(--block_border);
     border-radius: 3px;
     background: var(--block_header_bg);
     margin-bottom: 5px;
@@ -2032,17 +2033,11 @@ the class .animated-dropdown-menu to the .dropdown-menu ul (or ol)*/
 .box.collapsed-box .box-footer {
     display: none;
 }
-.box .nav-stacked>li {
-    border-bottom: 1px solid var(--block_border);
-    margin: 0;
-}
-.box .nav-stacked>li:last-of-type {border-bottom: none;}
+.box .nav-stacked>li {margin: 0;}
 .box.height-control .box-body {
     max-height: 300px;
     overflow: auto;
 }
-.box .border-right {border-right: 1px solid var(--block_border);}
-.box .border-left {border-left: 1px solid var(--block_border);}
 .box.box-solid {border-top: 0;}
 .box.box-solid>.box-header .btn.btn-default {background: transparent;}
 .box.box-solid>.box-header .btn:hover,
