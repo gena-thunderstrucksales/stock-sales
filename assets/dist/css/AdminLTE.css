@@ -237,7 +237,7 @@ th {
     font-weight: 400;
 }
 
-a > input {color: var(--text_main);}
+input + a {color: var(--text_main);}
 
 
 /* Page Header */
