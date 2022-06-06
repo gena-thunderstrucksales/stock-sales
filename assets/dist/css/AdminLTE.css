@@ -300,11 +300,12 @@ th {
     float: left;
     background-color: var(--button);
     background-image: none;
-    padding: 20px;
+    padding: 25px;
     font-family: fontAwesome;
+    color: var(--button_text);
 }
-.main-header .sidebar-toggle:before {content: "\f0c9";}
-.main-header .sidebar-toggle:hover {color: var(--button_text); background: var(--button_hover)}
+.main-header .sidebar-toggle:before {content: "\f0c9"; font-size: 1.5em;}
+.main-header .sidebar-toggle:hover {background: var(--button_hover)}
 .main-header .sidebar-toggle:focus,
 .main-header .sidebar-toggle:active {
     background: transparent;
@@ -7429,9 +7430,7 @@ a.last-update {
         display: table-cell;
         float: none;
     }
-    .total-order {
-        float: right !important;
-    }
+    .total-order {float: right !important;}
     .login-box,
     .register-box {
         width: 50%;
@@ -7440,52 +7439,27 @@ a.last-update {
         left: 20px !important;
         float: left;
     }
-    .login-menu-top {
-        top: 10px;
-    }
-    .w-40 {
-        width: unset !important;
-    }
-    div#box-header {
-        padding-top: 7px!important;
-    }
+    .login-menu-top {top: 10px;}
+    .w-40 {width: unset !important;}
+    div#box-header {padding-top: 7px!important;}
 }
 
 
-/*Mobile*/
-
+/* Mobile */
 @media (max-width: 768px) {
     input#status_order {
         position: relative;
         right: unset;
     }
-    .box-header {
-        margin-bottom: unset;
-    }
-    div#box-header {
-        padding-top: 15px!important;
-    }
-    #add_item .form-control {
-        display: table!important;
-    }
-    .footer-menu {
-        position: absolute;
-    }
-    .max-width-title-sign-out {
-        top: -10px;
-    }
-    .sidebar-menu {
-        height: 1000px;
-    }
-    div.dataTables_wrapper div.dataTables_filter {
-        display: -webkit-inline-box;
-    }
-    span.status-order {
-        left: 230px;
-    }
-    #manageTable_wrapper .col-sm-6 {
-        width: max-content;
-    }
+    .box-header {margin-bottom: unset;}
+    div#box-header {padding-top: 15px!important;}
+    #add_item .form-control {display: table!important;}
+    .footer-menu {position: absolute;}
+    .max-width-title-sign-out {top: -10px;}
+    .sidebar-menu {height: 1000px;}
+    div.dataTables_wrapper div.dataTables_filter {display: -webkit-inline-box;}
+    span.status-order {left: 230px;}
+    #manageTable_wrapper .col-sm-6 {width: max-content;}
     .main-sidebar {
         top: 82px;
         height: 100%;
@@ -7496,35 +7470,21 @@ a.last-update {
         background-color: var(--background_desktop);
         padding-bottom: 0px;
     }
-    td.col-xs-12.name-product-item-table {
-        border-top: 1px solid var(--block_header_bg)!important;
-    }
-    .name-product-item-table {
-        border-top: 5px solid green;
-    }
-    tbody {
-        background-color: var(--background_desktop);
-    }
-    div#docTable_length {
-        margin-left: 0px !important;
-    }
-    .custom-file-input::before {
-        padding: 30px;
-    }
+    td.col-xs-12.name-product-item-table {border-top: 1px solid var(--block_header_bg)!important;}
+    .name-product-item-table {border-top: 5px solid green;}
+    tbody {background-color: var(--background_desktop);}
+    div#docTable_length {margin-left: 0px !important;}
+    .custom-file-input::before {padding: 30px;}
     .login-box,
     .register-box {
         width: 100%;
     }
-    .w-40 {
-        width: unset !important;
-    }
+    .w-40 {width: unset !important;}
     .top-menu img {
         margin-left: auto;
         padding: 5px;
     }
-    table#docTable {
-        background: beige !important;
-    }
+    table#docTable {background: beige !important;}
     div#manageTable_length {
         left: 20px;
         position: relative;
@@ -7534,9 +7494,7 @@ a.last-update {
         top: 0px;
         float: right;
     }
-    div#manageTable_filter {
-        left: 25px;
-    }
+    div#manageTable_filter {left: 25px;}
     .btn {
         font-size: 10px;
         padding: 7px;
@@ -7552,23 +7510,11 @@ a.last-update {
     .box-header>.ion {
         font-size: 22px !important;
     }
-    .left-col {
-        float: left;
-    }
-    #manageTable tr td:nth-child(odd) {
-        float: left;
-    }
-    #manageTable tr td:nth-child(even) {
-        float: right;
-        width: 50%;
-    }
-    #manageTable tr th:nth-child(odd) {
-        float: left;
-    }
-    #manageTable tr th:nth-child(even) {
-        float: right;
-        width: 50%;
-    }
+    .left-col {float: left;}
+    #manageTable tr td:nth-child(odd) {float: left;}
+    #manageTable tr td:nth-child(even) {float: right; width: 50%;}
+    #manageTable tr th:nth-child(odd) {float: left;}
+    #manageTable tr th:nth-child(even) {float: right; width: 50%;}
     .table>caption+thead>tr:first-child>td,
     .table>caption+thead>tr:first-child>th,
     .table>colgroup+thead>tr:first-child>td,
@@ -7585,9 +7531,7 @@ a.last-update {
     .table>thead>tr>th {
         padding-right: 0px !important;
     }
-    div#manageTable_wrapper {
-        padding-top: 0px;
-    }
+    div#manageTable_wrapper {padding-top: 0px;}
     div#tableReport_filter {
         top: 15px;
         position: relative;
@@ -7597,40 +7541,24 @@ a.last-update {
         font-weight: 600;
         background-color: unset;
     }
-    .main-sidebar {
-        white-space: unset;
-    }
-    .skin-green .main-header .navbar .sidebar-toggle {
-        width: 70px;
-    }
+    .main-sidebar {white-space: unset;}
+    .skin-green .main-header .navbar .sidebar-toggle {width: 70px;}
     div#docTable_wrapper {
         padding: 0px !important;
         margin-top: 0px !important;
         padding-top: 10px !important;
     }
-    div.dataTables_wrapper div.dataTables_filter {
-        margin-left: 0px !important;
-    }
+    div.dataTables_wrapper div.dataTables_filter {margin-left: 0px !important;}
     .total-order {
         float: unset;
         display: list-item;
         padding: 15px;
     }
-    .skin-green .main-header .navbar .sidebar-toggle {
-        width: 70px !important;
-    }
-    div#selecetTable_length {
-        float: left;
-    }
-    div#optionsProductTable_length {
-        float: left;
-    }
-    .btn-primary-form {
-        padding-top: 5px !important;
-    }
-    .test {
-        padding: 1px !important;
-    }
+    .skin-green .main-header .navbar .sidebar-toggle {width: 70px !important;}
+    div#selecetTable_length {float: left;}
+    div#optionsProductTable_length {float: left;}
+    .btn-primary-form {padding-top: 5px !important;}
+    .test {padding: 1px !important;}
     table td[class*=col-],
     table th[class*=col-] {
         float: left;
