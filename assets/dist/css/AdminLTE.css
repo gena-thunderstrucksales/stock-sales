@@ -1,11 +1,9 @@
-/*!
- *   AdminLTE v2.4.0
+/*   AdminLTE v2.4.0
  *   Author: Almsaeed Studio
  *	 Website: Almsaeed Studio <https://adminlte.io>
  *   License: Open source - MIT
  *           Please visit http://opensource.org/licenses/MIT for more information
  */
-
 
 /* Core: General Layout Style
 --------------------------------------------------------------------------- */
@@ -28,6 +26,9 @@
     --warning: #c10230;
     --info: #14bcea;
     --pending: #ccc;
+
+    --sidebar_headings: #fff;
+    --sidebar_links: #fff;
 
     --button: #c10230;
     --button_hover: #840020;
@@ -553,69 +554,56 @@ th {
     max-width: 45px;
     height: auto;
 }
-
 .user-panel>.info {
     padding: 5px 5px 5px 15px;
     line-height: 1;
     position: absolute;
     left: 55px;
 }
-
 .user-panel>.info>p {
     font-weight: 600;
     margin-bottom: 9px;
 }
-
 .user-panel>.info>a {
     text-decoration: none;
     padding-right: 5px;
     margin-top: 3px;
     font-size: 11px;
 }
-
 .user-panel>.info>a>.fa,
 .user-panel>.info>a>.ion,
 .user-panel>.info>a>.glyphicon {
     margin-right: 3px;
 }
-
 .sidebar-menu {
     list-style: none;
     margin: 0;
     padding: 0;
     height: 100%;
 }
-
 .sidebar-menu>li {
     margin: 0;
     padding: 0;
 }
-
 .sidebar-menu>li>a {
-    padding: 12px 5px 12px 15px;
     display: block;
+    padding: 12px 5px 12px 15px;
+    color: var(--sidebar_headings);
 }
-
 .sidebar-menu>li>a>.fa,
 .sidebar-menu>li>a>.glyphicon,
 .sidebar-menu>li>a>.ion {
     width: 20px;
 }
-
 .sidebar-menu>li .label,
 .sidebar-menu>li .badge {
     margin-right: 5px;
 }
-
-.sidebar-menu>li .badge {
-    margin-top: 3px;
-}
-
+.sidebar-menu>li .badge {margin-top: 3px;}
 .sidebar-menu li.header {
     padding: 10px 25px 10px 15px;
     font-size: 12px;
 }
-
 .sidebar-menu li>a>.fa-angle-left,
 .sidebar-menu li>a>.pull-right-container>.fa-angle-left {
     width: auto;
@@ -626,14 +614,12 @@ th {
     -o-transition: transform 0.5s ease;
     transition: transform 0.5s ease;
 }
-
 .sidebar-menu li>a>.fa-angle-left {
     position: absolute;
     top: 50%;
     right: 10px;
     margin-top: -8px;
 }
-
 .sidebar-menu .menu-open>a>.fa-angle-left,
 .sidebar-menu .menu-open>a>.pull-right-container>.fa-angle-left {
     -webkit-transform: rotate(-90deg);
@@ -641,16 +627,10 @@ th {
     -o-transform: rotate(-90deg);
     transform: rotate(-90deg);
 }
-
-.sidebar-menu .active>.treeview-menu {
-    display: block;
-}
+.sidebar-menu .active>.treeview-menu {display: block;}
 
 
-/*
-* Component: Sidebar Mini
-*/
-
+/* Component: Sidebar Mini */
 @media (min-width: 768px) {
     .sidebar-mini.sidebar-collapse .content-wrapper,
     .sidebar-mini.sidebar-collapse .right-side,
@@ -662,18 +642,10 @@ th {
         width: 50px !important;
         z-index: 850;
     }
-    .sidebar-mini.sidebar-collapse .sidebar-menu>li {
-        position: relative;
-    }
-    .sidebar-mini.sidebar-collapse .sidebar-menu>li>a {
-        margin-right: 0;
-    }
-    .sidebar-mini.sidebar-collapse .sidebar-menu>li>a>span {
-        border-top-right-radius: 4px;
-    }
-    .sidebar-mini.sidebar-collapse .sidebar-menu>li:not(.treeview)>a>span {
-        border-bottom-right-radius: 4px;
-    }
+    .sidebar-mini.sidebar-collapse .sidebar-menu>li {position: relative;}
+    .sidebar-mini.sidebar-collapse .sidebar-menu>li>a {margin-right: 0;}
+    .sidebar-mini.sidebar-collapse .sidebar-menu>li>a>span {border-top-right-radius: 4px;}
+    .sidebar-mini.sidebar-collapse .sidebar-menu>li:not(.treeview)>a>span {border-bottom-right-radius: 4px;}
     .sidebar-mini.sidebar-collapse .sidebar-menu>li>.treeview-menu {
         padding-top: 5px;
         padding-bottom: 5px;
@@ -688,21 +660,15 @@ th {
         display: none !important;
         -webkit-transform: translateZ(0);
     }
-    .sidebar-mini.sidebar-collapse .main-header .logo {
-        width: 50px;
-    }
+    .sidebar-mini.sidebar-collapse .main-header .logo {width: 50px;}
     .sidebar-mini.sidebar-collapse .main-header .logo>.logo-mini {
         display: block;
         margin-left: -15px;
         margin-right: -15px;
         font-size: 18px;
     }
-    .sidebar-mini.sidebar-collapse .main-header .logo>.logo-lg {
-        display: none;
-    }
-    .sidebar-mini.sidebar-collapse .main-header .navbar {
-        margin-left: 50px;
-    }
+    .sidebar-mini.sidebar-collapse .main-header .logo>.logo-lg {display: none;}
+    .sidebar-mini.sidebar-collapse .main-header .navbar {margin-left: 50px;}
 }
 
 .sidebar-mini:not(.sidebar-mini-expand-feature).sidebar-collapse .sidebar-menu>li:hover>a>span:not(.pull-right),
@@ -1877,7 +1843,7 @@ the class .animated-dropdown-menu to the .dropdown-menu ul (or ol)*/
     background: var(--block_header_bg);
     margin-bottom: 5px;
     width: 100%;
-    border-radius: 7px;
+    border-radius: var(--radius_border);
 }
 .box.box-primary {border-top-color: #3c8dbc;}
 .box.box-info {border-top-color: #00c0ef;}
@@ -2010,7 +1976,7 @@ the class .animated-dropdown-menu to the .dropdown-menu ul (or ol)*/
 .overlay-wrapper .overlay {
     z-index: 50;
     background: rgba(255, 255, 255, 0.7);
-    border-radius: 3px;
+    border-radius: var(--border-radius);
 }
 
 .box .overlay>.fa,
@@ -2410,24 +2376,13 @@ the class .animated-dropdown-menu to the .dropdown-menu ul (or ol)*/
     display: table;
 }
 
-.chat .item>.attachment:after {
-    clear: both;
-}
-
-.box-input {
-    max-width: 200px;
-}
-
-.modal .panel-body {
-    color: #444;
-}
+.chat .item>.attachment:after {clear: both;}
+.box-input {max-width: 200px;}
+.modal .panel-body {color: #444;}
 
 
-/*
-* Component: Info Box
-* -------------------
-*/
-
+/* Component: Info Box
+--------------------------------------------------------- */
 .info-box {
     display: block;
     min-height: 90px;
@@ -2437,26 +2392,17 @@ the class .animated-dropdown-menu to the .dropdown-menu ul (or ol)*/
     border-radius: 2px;
     margin-bottom: 15px;
 }
-
-.info-box small {
-    font-size: 14px;
-}
-
+.info-box small {font-size: 14px;}
 .info-box .progress {
     background: rgba(0, 0, 0, 0.2);
     margin: 5px -10px 5px -10px;
     height: 2px;
 }
-
 .info-box .progress,
 .info-box .progress .progress-bar {
     border-radius: 0;
 }
-
-.info-box .progress .progress-bar {
-    background: #fff;
-}
-
+.info-box .progress .progress-bar {background: #fff;}
 .info-box-icon {
     border-top-left-radius: 2px;
     border-top-right-radius: 0;
@@ -2471,22 +2417,16 @@ the class .animated-dropdown-menu to the .dropdown-menu ul (or ol)*/
     line-height: 90px;
     background: rgba(0, 0, 0, 0.2);
 }
-
-.info-box-icon>img {
-    max-width: 100%;
-}
-
+.info-box-icon>img {max-width: 100%;}
 .info-box-content {
     padding: 5px 10px;
     margin-left: 90px;
 }
-
 .info-box-number {
     display: block;
     font-weight: bold;
     font-size: 18px;
 }
-
 .progress-description,
 .info-box-text {
     display: block;
@@ -2495,25 +2435,13 @@ the class .animated-dropdown-menu to the .dropdown-menu ul (or ol)*/
     overflow: hidden;
     text-overflow: ellipsis;
 }
-
-.info-box-text {
-    text-transform: uppercase;
-}
-
-.info-box-more {
-    display: block;
-}
-
-.progress-description {
-    margin: 0;
-}
+.info-box-text {text-transform: uppercase;}
+.info-box-more {display: block;}
+.progress-description {margin: 0;}
 
 
-/*
-* Component: Timeline
-* -------------------
-*/
-
+/* Component: Timeline
+--------------------------------------------------------- */
 .timeline {
     position: relative;
     margin: 0 0 30px 0;
@@ -3630,26 +3558,19 @@ table.text-center th {
     padding-left: 15px;
 }
 
-.treeview-menu .treeview-menu {
-    padding-left: 20px;
-}
-
-.treeview-menu>li {
-    margin: 0;
-}
-
+.treeview-menu .treeview-menu {padding-left: 20px;}
+.treeview-menu>li {margin: 0;}
 .treeview-menu>li>a {
-    padding: 5px 5px 5px 0px;
     display: block;
+    padding: 5px 5px 5px 0px;
     font-size: 18px;
+    color: var(--sidebar_links);
 }
-
 .treeview-menu>li>a>.fa,
 .treeview-menu>li>a>.glyphicon,
 .treeview-menu>li>a>.ion {
     width: 20px;
 }
-
 .treeview-menu>li>a>.pull-right-container>.fa-angle-left,
 .treeview-menu>li>a>.pull-right-container>.fa-angle-down,
 .treeview-menu>li>a>.fa-angle-left,
@@ -3658,47 +3579,28 @@ table.text-center th {
 }
 
 
-/*
-* Page: Mailbox
-* -------------
-*/
-
-.mailbox-messages>.table {
-    margin: 0;
-}
-
-.mailbox-controls {
-    padding: 5px;
-}
-
-.mailbox-controls.with-border {
-    border-bottom: 1px solid #f4f4f4;
-}
-
+/* Page: Mailbox
+----------------------------------------------------------------- */
+.mailbox-messages>.table {margin: 0;}
+.mailbox-controls {padding: 5px;}
+.mailbox-controls.with-border {border-bottom: 1px solid #f4f4f4;}
 .mailbox-read-info {
     border-bottom: 1px solid #f4f4f4;
     padding: 10px;
 }
-
 .mailbox-read-info h3 {
     font-size: 20px;
     margin: 0;
 }
-
 .mailbox-read-info h5 {
     margin: 0;
     padding: 5px 0 0 0;
 }
-
 .mailbox-read-time {
     color: #999;
     font-size: 13px;
 }
-
-.mailbox-read-message {
-    padding: 10px;
-}
-
+.mailbox-read-message {padding: 10px;}
 .mailbox-attachments li {
     float: left;
     width: 200px;
@@ -3706,85 +3608,60 @@ table.text-center th {
     margin-bottom: 10px;
     margin-right: 10px;
 }
-
 .mailbox-attachment-name {
     font-weight: bold;
     color: #666;
 }
-
 .mailbox-attachment-icon,
 .mailbox-attachment-info,
 .mailbox-attachment-size {
     display: block;
 }
-
 .mailbox-attachment-info {
     padding: 10px;
     background: #f4f4f4;
 }
-
 .mailbox-attachment-size {
     color: #999;
     font-size: 12px;
 }
-
 .mailbox-attachment-icon {
     text-align: center;
     font-size: 65px;
     color: #666;
     padding: 20px 10px;
 }
-
-.mailbox-attachment-icon.has-img {
-    padding: 0;
-}
-
+.mailbox-attachment-icon.has-img {padding: 0;}
 .mailbox-attachment-icon.has-img>img {
     max-width: 100%;
     height: auto;
 }
 
 
-/*
-* Page: Lock Screen
-* -----------------
-*/
-
-
+/* Page: Lock Screen
+-------------------------------------------------------------------- */
 /* ADD THIS CLASS TO THE <BODY> TAG */
-
-.lockscreen {
-    background: #d2d6de;
-}
-
+.lockscreen {background: #d2d6de;}
 .lockscreen-logo {
     font-size: 35px;
     text-align: center;
     margin-bottom: 25px;
     font-weight: 300;
 }
-
-.lockscreen-logo a {
-    color: #444;
-}
-
+.lockscreen-logo a {color: #444;}
 .lockscreen-wrapper {
     max-width: 400px;
     margin: 0 auto;
     margin-top: 10%;
 }
 
-
 /* User name [optional] */
-
 .lockscreen .lockscreen-name {
     text-align: center;
     font-weight: 600;
 }
 
-
 /* Will contain the image and the sign in form */
-
 .lockscreen-item {
     border-radius: 4px;
     padding: 0;
@@ -3794,9 +3671,7 @@ table.text-center th {
     width: 290px;
 }
 
-
 /* User image */
-
 .lockscreen-image {
     border-radius: 50%;
     position: absolute;
@@ -3806,40 +3681,25 @@ table.text-center th {
     padding: 5px;
     z-index: 10;
 }
-
 .lockscreen-image>img {
     border-radius: 50%;
     width: 70px;
     height: 70px;
 }
 
-
 /* Contains the password input and the login button */
-
-.lockscreen-credentials {
-    margin-left: 70px;
-}
-
-.lockscreen-credentials .form-control {
-    border: 0;
-}
-
+.lockscreen-credentials {margin-left: 70px;}
+.lockscreen-credentials .form-control {border: 0;}
 .lockscreen-credentials .btn {
     background-color: #fff;
     border: 0;
     padding: 0 10px;
 }
-
-.lockscreen-footer {
-    margin-top: 10px;
-}
+.lockscreen-footer {margin-top: 10px;}
 
 
-/*
-* Page: Login & Register
-* ----------------------
-*/
-
+/* Page: Login & Register
+---------------------------------------------------------------------------------------- */
 .login-logo,
 .register-logo {
     font-size: 35px;
