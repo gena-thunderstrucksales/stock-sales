@@ -306,10 +306,6 @@ th {
 }
 .main-header .sidebar-toggle:before {content: "\f0c9"; font-size: 1.5em;}
 .main-header .sidebar-toggle:hover {background: var(--button_hover)}
-.main-header .sidebar-toggle:focus,
-.main-header .sidebar-toggle:active {
-    background: transparent;
-}
 .main-header .sidebar-toggle .icon-bar {display: none;}
 .main-header .navbar .nav>li.user>a>.fa,
 .main-header .navbar .nav>li.user>a>.glyphicon,
@@ -7202,15 +7198,8 @@ input#status_order {
     position: absolute;
     right: 15px;
 }
-
-fieldset {
-    position: relative;
-}
-
-input {
-    border: 2px solid green;
-}
-
+fieldset {position: relative;}
+input {border: 2px solid green;}
 span.status-order {
     position: absolute;
     right: 0px;
@@ -7221,71 +7210,46 @@ span.status-order {
     border-bottom-right-radius: 25px;
     margin-right: 15px;
 }
-
 #loader_page a {
     right: -48%;
     top: 51%;
     position: relative;
 }
-
-.form-inline .form-control {
-    width: 100%;
-}
-
-.send-email {
-    margin-top: 40px;
-}
-
-.add_product {
-    min-height: 90px;
-}
-
-h3.box-title {
-    padding-bottom: 10px;
-}
-
+.form-inline .form-control {width: 100%;}
+.send-email {margin-top: 40px;}
+.add_product {min-height: 90px;}
+h3.box-title {padding-bottom: 10px;}
 .btn-group,
 .btn-group-vertical {
     vertical-align: top!important;
 }
-
-div.dataTables_wrapper div.dataTables_filter input {
-    width: 200px !important;
-}
-
-.table-striped>tbody>tr:nth-of-type(odd) {
-    background-color: #f9f9f9;
-}
-
-div#box-header {
+div.dataTables_wrapper div.dataTables_filter input {width: 200px !important;}
+.table-striped>tbody>tr:nth-of-type(odd) {background-color: #f9f9f9;}
+div#box-header,
+div#box-header-total {
     padding-top: 20px;
     position: absolute;
 }
-
 #tableTopPerformingProduct_wrapper .row:nth-child(3) {
     /* background: #fff; */
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
-
 #tableTopPerformingProduct_wrapper .row:not(:first-child) {
     background: #fff;
     width: 100%;
     margin-left: 0;
 }
-
 #tableTotalSales_wrapper .row:nth-child(3) {
     /* background: #fff; */
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
-
 #tableTotalSales_wrapper .row:not(:first-child) {
     background: #fff;
     width: 100%;
     margin-left: 0;
 }
-
 #tableSelesByBrand_wrapper .row:nth-child(3) {
     /* background: #fff; */
     border-bottom-left-radius: 5px;
@@ -7340,22 +7304,18 @@ div#box-header {
     width: 100%!important;
     border-width: 0;
 }
-
 #tableTotalSales {
     width: 100%!important;
     border-width: 0;
 }
-
 #tableTopPerformingMembers {
     width: 100%!important;
     border-width: 0;
 }
-
 #tableSelesByBrand {
     width: 100%!important;
     border-width: 0;
 }
-
 a.last-update {
     position: absolute;
     top: 70%;
@@ -7363,46 +7323,15 @@ a.last-update {
     text-align: center;
     padding-right: 5%;
 }
-
-#box-header-total .box-title {
-    margin-left: 0%!important;
-}
-
-.table-report {
-    padding-left: 2px;
-    padding-right: 2px;
-}
-
-.table-report .pagination>li {
-    display: none;
-}
-
-.total-sales {
-    font-size: 30px;
-}
-
-.table-report h3.box-title {
-    padding-bottom: 0px;
-}
-
-#box-header-total {
-    padding-top: 20px;
-    text-align: center;
-}
-
-.row.select-currency {
-    margin-bottom: 15px;
-}
-
-.min-width-title {
-    max-width: 65px;
-}
-
-.min-width-title-sign-out {
-    min-width: 90px;
-    margin-left: 10px;
-}
-
+#box-header-total .box-title {margin-left: 0%!important;}
+.table-report {padding-left: 2px; padding-right: 2px;}
+.table-report .pagination>li {display: none;}
+.total-sales {font-size: 30px;}
+.table-report h3.box-title {padding-bottom: 0px;}
+#box-header-total {text-align: center;}
+.row.select-currency {margin-bottom: 15px;}
+.min-width-title {max-width: 65px;}
+.min-width-title-sign-out {min-width: 90px; margin-left: 10px;}
 #add_item .form-control {
     display: inline!important;
     width: 150px;
@@ -7441,7 +7370,6 @@ a.last-update {
     }
     .login-menu-top {top: 10px;}
     .w-40 {width: unset !important;}
-    div#box-header {padding-top: 7px!important;}
 }
 
 
@@ -7452,7 +7380,6 @@ a.last-update {
         right: unset;
     }
     .box-header {margin-bottom: unset;}
-    div#box-header {padding-top: 15px!important;}
     #add_item .form-control {display: table!important;}
     .footer-menu {position: absolute;}
     .max-width-title-sign-out {top: -10px;}
