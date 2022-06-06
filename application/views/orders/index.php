@@ -20,7 +20,7 @@
           </div>
         <?php endif; ?>
 
-        <div class="box">
+        <div class="box datatable-box">
           <!-- /.box-header -->
           <div class="box-body">
             <div class="box-header " id='box-header'>
