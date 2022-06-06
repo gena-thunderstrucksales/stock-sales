@@ -37,7 +37,7 @@
               <thead>
                 <tr>
                   <th>No</th>
-                  <th >Date</th>
+                  <th>Date</th>
                   <th>Business Name</th>
                   <th>Order Status</th>
                   <th>Currency</th>
@@ -134,8 +134,6 @@
     $('.dataTables_filter input[type="search"]').attr('placeholder', 'SEARCH').css({
       'width': '250px',
       'border-radius': '50px',
-      'color': ' var(--label_login)',
-      'border-color': ' var(--background_block_desktop)',
     });
   });
 
