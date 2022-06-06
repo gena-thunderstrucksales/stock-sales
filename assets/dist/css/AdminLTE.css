@@ -7017,13 +7017,11 @@ div#box-header-total {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
-
 #tableTopPerformingMembers_wrapper .row:not(:first-child) {
     background: #fff;
     width: 100%;
     margin-left: 0;
 }
-
 #tableTotalSales_wrapper .row:nth-child(2) {
     /* background: #fff; */
     font-size: 40px;
@@ -7031,25 +7029,14 @@ div#box-header-total {
     background: white;
     min-height: 180px;
 }
-
 #tableTotalSales_wrapper .row:nth-child(1) {
     /* background: #fff; */
     text-align: center;
     top: 20px;
 }
-
-#tableTotalSales_wrapper .table>thead:first-child>tr:first-child>th {
-    background: white!important;
-}
-
-#tableTotalSales_wrapper .table-striped>tbody>tr:nth-of-type(odd) {
-    background: white!important;
-}
-
-#tableTotalSales_wrapper .table-bordered {
-    border: 1px solid white;
-}
-
+#tableTotalSales_wrapper .table>thead:first-child>tr:first-child>th {background: white!important;}
+#tableTotalSales_wrapper .table-striped>tbody>tr:nth-of-type(odd) {background: white!important;}
+#tableTotalSales_wrapper .table-bordered {border: 1px solid white;}
 #tableTopPerformingProduct {
     width: 100%!important;
     border-width: 0;
@@ -7135,6 +7122,7 @@ a.last-update {
         top: 82px;
         height: 100%;
     }
+    table.dataTable thead {display: none;}
     #docTable tbody td,
     #docTable tbody th {
         border-bottom: 1px solid var(--background_desktop);
