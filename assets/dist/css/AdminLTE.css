@@ -10,6 +10,7 @@
  :root {
     --bg_main: #000700;
     --bg_sidebar: #000700;
+    --bg_header: #fff;
     --background_desktop: #f4f4f4;
 
     --block_header_bg: #dddddd;
@@ -32,7 +33,8 @@
 
     --button: #c10230;
     --button_hover: #840020;
-    --bt_grey: #DBDFD5;
+    --button_text: #fff;
+    --button_disabled: #DBDFD5;
 
     --form_field_border: #ccc;
 
@@ -52,6 +54,7 @@ html, body {height: 100%;}
     height: 100%;
 }
 body {
+    background: var(--bg_main);
     font-family: Proxima Nova, sans-serif;
     font-weight: 400;
     overflow-x: hidden;
@@ -248,14 +251,15 @@ th {
 /* Component: Main Header
 ------------------------------------------------------------------ */
 .main-header .navbar {
+    margin-bottom: 0;
+    margin-left: 0px;
+    min-height: 50px;
+    border: none;
+    border-radius: 0;
+    background: var(--bg_header);
     -webkit-transition: margin-left 0.3s ease-in-out;
     -o-transition: margin-left 0.3s ease-in-out;
     transition: margin-left 0.3s ease-in-out;
-    margin-bottom: 0;
-    margin-left: 0px;
-    border: none;
-    min-height: 50px;
-    border-radius: 0;
 }
 .layout-top-nav .main-header .navbar {margin-left: 0;}
 .main-header #navbar-search-input.form-control {
@@ -294,13 +298,13 @@ th {
 
 .main-header .sidebar-toggle {
     float: left;
-    background-color: transparent;
+    background-color: var(--button);
     background-image: none;
     padding: 20px;
     font-family: fontAwesome;
 }
 .main-header .sidebar-toggle:before {content: "\f0c9";}
-.main-header .sidebar-toggle:hover {color: #fff;}
+.main-header .sidebar-toggle:hover {color: var(--button_text); background: var(--button_hover)}
 .main-header .sidebar-toggle:focus,
 .main-header .sidebar-toggle:active {
     background: transparent;
@@ -2654,8 +2658,8 @@ the class .animated-dropdown-menu to the .dropdown-menu ul (or ol)*/
 .btn-primary-form {
     border-radius: 20px;
     border-width: 1px;
-    background-color: var(--bt_grey);
-    border-color: var(--bt_grey);
+    background-color: var(--button_disabled);
+    border-color: var(--button_disabled);
     padding-left: 15px;
     padding-right: 15px;
     margin-top: 10px;
@@ -6908,7 +6912,7 @@ fieldset[disabled] .form-control {
 
 .form-control[disabled],
 fieldset[disabled] .form-control {
-    background-color: var(--bt_grey);
+    background-color: var(--button_disabled);
     opacity: 1;
 }
 
@@ -6933,14 +6937,12 @@ div.dataTables_wrapper div.dataTables_filter input {
     border-bottom: 1px solid var(--block_header_bg);
     padding-bottom: 10px !important;
 }
-
 #optionsProductTable tbody th,
 #optionsProductTable tbody td {
     border-bottom-width: 1px !important;
     border-bottom: 1px solid var(--block_header_bg);
     padding-bottom: 10px !important;
 }
-
 .table>tbody>tr>td,
 .table>tbody>tr>th,
 .table>tfoot>tr>td,
@@ -6949,62 +6951,35 @@ div.dataTables_wrapper div.dataTables_filter input {
 .table>thead>tr>th {
     vertical-align: middle !important;
 }
-
 .nav-tabs>li.active>a,
 .nav-tabs>li.active>a:focus,
 .nav-tabs>li.active>a:hover {
-    background-color: var(--bt_grey);
+    background-color: var(--button_disabled);
 }
-
-.form-inline .form-control {
-    margin-bottom: 5px;
-}
-
-input#idProduct {
-    padding: 0px;
-}
-
-.dataTables_length ::placeholder {
-    color: var(--bg_main);
-}
-
-.dataTables_filter ::placeholder {
-    color: var(--bg_main);
-}
-
-.select2-container .select2-selection--single .select2-selection__rendered {
-    padding-left: 0px !important;
-}
-
+.form-inline .form-control {margin-bottom: 5px;}
+input#idProduct {padding: 0px;}
+.dataTables_length ::placeholder {color: var(--bg_main);}
+.dataTables_filter ::placeholder {color: var(--bg_main);}
+.select2-container .select2-selection--single .select2-selection__rendered {padding-left: 0px !important;}
 .uploud-imege-label {
     max-width: 200px;
     margin: auto;
 }
-
 .block-item h4 {
     background-color: white;
     margin: 0px
 }
-
 div#otionsTable_wrapper {
     background: white;
     text-align: left;
 }
-
 .table-white {
     background-color: white;
     padding-left: 0px;
     padding-right: 0px;
 }
-
-div.dataTables_scrollHead table.table-bordered {
-    background-color: var(--background_desktop) !important;
-}
-
-.row_selected {
-    background-color: var(--block_header_bg) !important;
-}
-
+div.dataTables_scrollHead table.table-bordered {background-color: var(--background_desktop) !important;}
+.row_selected {background-color: var(--block_header_bg) !important;}
 .total-order {
     float: right;
     display: table;
