@@ -6260,63 +6260,43 @@ div.dataTables_wrapper div.dataTables_length select {
     border-radius: 7px;
     background-color: white;
 }
-
 div.dataTables_wrapper div.dataTables_filter input {
     background-color: var(--background_desktop);
     height: 34px;
 }
-
 #manageTable_wrapper .col-sm-6 {
     width: 0%;
     padding-right: 0px;
     padding-left: 0px;
 }
-
-#add_item {
-    margin-left: 20px;
-}
-
-div.dataTables_wrapper div.dataTables_length select {
-    height: 35px;
-}
-
-.table-striped>tbody>tr:nth-of-type(odd) {
-    background-color: var(--background_desktop);
-}
-
+#add_item {margin-left: 20px;}
+div.dataTables_wrapper div.dataTables_length select {height: 35px;}
+.table-striped>tbody>tr:nth-of-type(odd) {background-color: var(--background_desktop);}
 #manageTable_wrapper .row:not(:first-child) {
     background: #fff;
     width: 100%;
     margin-left: 0px;
 }
-
 #manageTable_wrapper .row:nth-child(3) {
     background: #fff;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
-
-#manageTable_info {
-    display: none;
-}
-
+#manageTable_info {display: none;}
 #manageTable {
     width: 100% !important;
     border-width: 0;
 }
-
 div#manageTable_wrapper {
     padding-left: 2px;
     padding-right: 2px;
     padding-top: 15px;
 }
-
-able.table-bordered.dataTable th,
+table.table-bordered.dataTable th,
 table.table-bordered.dataTable td {
     border-left-width: 0;
     border-width: 0;
 }
-
 table.dataTable thead .sorting:after,
 table.dataTable thead .sorting_asc:after,
 table.dataTable thead .sorting_desc:after,
@@ -6901,34 +6881,18 @@ a.btn.btn-primary {
     position: absolute;
 }
 
-.w-40 {
-    width: 30%;
-}
-
+.w-40 {width: 30%;}
 div#manageTable_length {
     right: -700px;
     position: relative;
 }
-
-.dataTables_scrollBody {
-    margin: auto;
-}
-
-.select2-container {
-    display: table-cell !important;
-}
-
-#docTable .select2-container {
-    display: inline-block !important;
-}
-
-.group-selection .select2-container {
-    width: 25%!important;
-}
+.dataTables_scrollBody {margin: auto;}
+.select2-container {display: table-cell !important;}
+#docTable .select2-container {display: inline-block !important;}
+.group-selection .select2-container {width: 25%!important;}
 
 
 /*iPad*/
-
 div#loader_page {
     display: none;
     position: fixed;
@@ -7027,7 +6991,6 @@ div#box-header-total {
     font-size: 40px;
     text-align: center;
     background: white;
-    min-height: 180px;
 }
 #tableTotalSales_wrapper .row:nth-child(1) {
     /* background: #fff; */
@@ -7054,11 +7017,11 @@ div#box-header-total {
     border-width: 0;
 }
 a.last-update {
-    position: absolute;
-    top: 70%;
-    width: 100%;
+    position: relative;
+    display: block;
+    padding-top: 4px;
     text-align: center;
-    padding-right: 5%;
+    color: var(--bg_main);
 }
 #box-header-total .box-title {margin-left: 0%!important;}
 .table-report {padding-left: 2px; padding-right: 2px;}
