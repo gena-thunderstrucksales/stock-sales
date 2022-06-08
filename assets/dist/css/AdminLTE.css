@@ -1691,6 +1691,7 @@ the class .animated-dropdown-menu to the .dropdown-menu ul (or ol)*/
 /* Component: Box
 ------------------------------------------ */
 .box {
+    position: relative;
     border: 1px solid var(--block_border);
     border-radius: 3px;
     background: var(--block_header_bg);
