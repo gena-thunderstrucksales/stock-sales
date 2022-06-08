@@ -1852,11 +1852,12 @@ the class .animated-dropdown-menu to the .dropdown-menu ul (or ol)*/
     clear: both;
 }
 .box-header {
-    color: var(--text_main);
+    color: #444;
     display: block;
     position: relative;
     width: 100%;
     text-align: left;
+    margin-bottom: 20px;
 }
 .table-report .box-header {
     position: relative!important;
@@ -1891,7 +1892,7 @@ the class .animated-dropdown-menu to the .dropdown-menu ul (or ol)*/
     right: 0;
     left: auto;
 }
-.box-header>.box-tools .dropdown-menu>li>a {color: var(--text_main);}
+.box-header>.box-tools .dropdown-menu>li>a {color: #444 !important;}
 .btn-box-tool {
     padding: 5px;
     font-size: 12px;
@@ -6954,6 +6955,7 @@ a.last-update {
 
 @media (max-width: 1500px) {
     #manageTable_wrapper .col-sm-6 {width: -webkit-fill-available;}
+    #add_item {float: none;}
     #add_item .form-control {display: table!important;}
     div#manageTable_length {right: -25px;}
     .form-inline .form-control {
