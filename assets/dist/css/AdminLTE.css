@@ -6346,6 +6346,12 @@ select.input-sm {
 .label-shipped {background-color: var(--caution);}
 .label-delivered {background-color: var(--success);}
 .label-canceled {background-color: var(--warning);}
+.label-base-status.label-panding ~ span {var(--pending);}
+.label-base-status.label-info ~ span {var(--info);}
+.label-base-status.label-shipped ~ span {var(--caution);}
+.label-base-status.label-delivered ~ span {var(--success);}
+.label-base-status.label-canceled ~ span {var(--warning);}
+
 .label-base-icon-doc {
     background-color: var(--block_header_bg);
     width: 25px;
@@ -7087,12 +7093,13 @@ a.last-update {
     }
     .label-base-status {
         position: absolute;
-        left: 0;
+        left: -2px;
         width: 6px;
-        height: 100%;
+        height: 90px;
         border-radius: 0;
         border: none;
         margin-left: 0;
         margin-top: 0;
+        transform: translateY(-35px);
     }
 }
