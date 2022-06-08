@@ -6296,7 +6296,7 @@ th.sorting {
 .pagination>li:first-child>a,
 .pagination>li:first-child>span {
     border-radius: 50%;
-    background-image: url('../img/table/arrow-previos.png');
+    background-image: url('../img/table/arrow-previos-white.png');
     background-repeat: no-repeat;
     background-position: center;
     /* shows image */
@@ -6308,6 +6308,8 @@ th.sorting {
     overflow: hidden;
     color: var(--highlight);
 }
+.pagination>li:first-child>a,
+.pagination>li:first-child>span {background-image: url('../img/table/arrow-previos.png');}
 .pagination>li>a,
 .pagination>li>span {
     margin-left: 0px;
