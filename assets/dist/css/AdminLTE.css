@@ -6341,7 +6341,6 @@ select.input-sm {
     margin-left: -20px;
     margin-top: 1px;
 }
-
 .label-panding {background-color: var(--pending);}
 .label-approved {background-color: var(--info);}
 .label-shipped {background-color: var(--caution);}
@@ -7085,5 +7084,15 @@ a.last-update {
     table td[class*=col-],
     table th[class*=col-] {
         float: left;
+    }
+    .label-base-status {
+        position: absolute;
+        left: 0;
+        width: 6px;
+        height: 100%;
+        border-radius: 0;
+        border: none;
+        margin-left: 0;
+        margin-top: 0;
     }
 }
