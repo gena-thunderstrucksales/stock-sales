@@ -2648,8 +2648,7 @@ the class .animated-dropdown-menu to the .dropdown-menu ul (or ol)*/
 .nav>li>a:hover,
 .nav>li>a:active,
 .nav>li>a:focus {
-    color: #444;
-    background: #f7f7f7;
+    color: var(--text_main);
 }
 
 /* NAV PILLS */
@@ -6956,7 +6955,6 @@ a.last-update {
 
 @media (max-width: 1500px) {
     #manageTable_wrapper .col-sm-6 {width: -webkit-fill-available;}
-    #add_item {float: none;}
     #add_item .form-control {display: table!important;}
     div#manageTable_length {right: -25px;}
     .form-inline .form-control {
