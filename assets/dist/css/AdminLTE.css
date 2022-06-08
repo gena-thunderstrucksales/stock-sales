@@ -7101,6 +7101,7 @@ a.last-update {
         text-align: center;
     }
     div#box-header {
+        padding: 16px 0 11px;
         border-bottom: none;
     }
     #add_item {
@@ -7110,11 +7111,13 @@ a.last-update {
         display: block;
         width: 100%;
         border-bottom: 1px solid var(--block_border);
+        text-align: center;
     }
     #add_item a.btn {
         position: relative;
         right: initial;
-        margin: 0 auto;
+        display: inline-block;
+        margin-bottom: 5px;
     }
     #add_item br {display: none;}
 
