@@ -3571,11 +3571,8 @@ table.text-center th {
 }
 
 
-/*
-* Page: Invoice
-* -------------
-*/
-
+/* Page: Invoice
+---------------------------------------------------- */
 .invoice {
     position: relative;
     background: #fff;
@@ -3583,7 +3580,6 @@ table.text-center th {
     padding: 20px;
     margin: 10px 25px;
 }
-
 .invoice-title {
     margin-top: 0;
 }
@@ -6174,9 +6170,20 @@ table.text-center th {
 .login-menu-top {top: 20px;}
 .col-xs-2.login-menu-top {bottom: 25%;}
 
-.welcome-user .account-links {
+.welcome-user .account-links-welcome {
     display: inline-block;
     vertical-align: middle;
+    text-align: right;
+}
+.welcome-user .account-photo-thumbnail {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.welcome-user .account-sign-out {
+    display: block;
+    text-align: right;
 }
 .welcome-user a {
     position: relative;
@@ -6187,7 +6194,6 @@ table.text-center th {
     width: 36px;
     height: 36px;
     padding: 3px;
-    margin: 0 6px;
     background: var(--highlight);
     color: white;
     text-align: center;

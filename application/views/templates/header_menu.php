@@ -13,16 +13,16 @@
 
       <div class="col-xs-6 col-sm-4 col-lg-3 login-menu-top text-right">
         <div class="row welcome-user">
-          <div class="account-links">
-            <a class="background-desktop">Welcome</a>
+          <div class="account-links account-links-welcome">
+            <a>Welcome</a>
           </div>
-          <div class="account-links">
+          <div class="account-links account-links-welcome">
             <a class="user-top-menu" href="<?php echo base_url('users/setting/') ?>"><?php echo $this->session->userdata('username'); ?></a><br>
           </div>
-          <div class="account-links">
+          <div class="account-links account-photo-thumbnail">
             <div class="userCircle"><?php echo ucfirst(substr($this->session->userdata('username'), 0, 1)); ?></div>
           </div>
-          <div class="account-links">
+          <div class="account-links account-sign-out">
               <!-- user permission info -->
               <a class="user-top-menu" href="<?php echo base_url('auth/logout') ?>"><span>Sign Out</span></a>
             </div>
