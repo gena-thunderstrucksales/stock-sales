@@ -6175,6 +6175,7 @@ table.text-center th {
     vertical-align: middle;
     text-align: right;
 }
+.welcome-user .account-links-welcome:nth-child(2) {margin-right: 42px;}
 .welcome-user .account-photo-thumbnail {
     position: absolute;
     right: 0;
@@ -6183,6 +6184,7 @@ table.text-center th {
 }
 .welcome-user .account-sign-out {
     display: block;
+    margin-right: 42px;
     text-align: right;
 }
 .welcome-user a {
