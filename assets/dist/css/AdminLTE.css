@@ -1904,11 +1904,12 @@ the class .animated-dropdown-menu to the .dropdown-menu ul (or ol)*/
 }
 .btn-box-tool.btn:active {box-shadow: none;}
 .box-body {
+    position: relative;
+    padding-bottom: 2px;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     border-bottom-right-radius: 3px;
     border-bottom-left-radius: 3px;
-    padding-bottom: 2px;
 }
 .no-header .box-body {
     border-top-right-radius: 3px;
@@ -6193,7 +6194,6 @@ div.dataTables_wrapper div.dataTables_filter input {
     padding-right: 0px;
     padding-left: 0px;
 }
-#add_item {margin-left: 20px;}
 div.dataTables_wrapper div.dataTables_length select {height: 35px;}
 .table-striped>tbody>tr:nth-of-type(odd) {background-color: var(--background_desktop);}
 #manageTable_wrapper .row:not(:first-child) {
@@ -6783,10 +6783,9 @@ div#manageTable_filter {
     left: 350px;
 }
 #add_item {
-    position: relative;
+    position: absolute;
     right: 1%;
     top: 15px;
-    float: right;
 }
 a.btn.btn-primary {
     right: 1px;
@@ -6953,7 +6952,6 @@ a.last-update {
 
 @media (max-width: 1500px) {
     #manageTable_wrapper .col-sm-6 {width: -webkit-fill-available;}
-    #add_item {float: none;}
     #add_item .form-control {display: table!important;}
     div#manageTable_length {right: -25px;}
     .form-inline .form-control {
