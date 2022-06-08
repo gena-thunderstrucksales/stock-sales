@@ -6346,11 +6346,11 @@ select.input-sm {
 .label-shipped {background-color: var(--caution);}
 .label-delivered {background-color: var(--success);}
 .label-canceled {background-color: var(--warning);}
-.label-base-status.label-panding ~ span {var(--pending);}
-.label-base-status.label-info ~ span {var(--info);}
-.label-base-status.label-shipped ~ span {var(--caution);}
-.label-base-status.label-delivered ~ span {var(--success);}
-.label-base-status.label-canceled ~ span {var(--warning);}
+.label-base-status.label-panding ~ span {color: var(--pending);}
+.label-base-status.label-info ~ span {color: var(--info);}
+.label-base-status.label-shipped ~ span {color: var(--caution);}
+.label-base-status.label-delivered ~ span {color: var(--success);}
+.label-base-status.label-canceled ~ span {color: var(--warning);}
 
 .label-base-icon-doc {
     background-color: var(--block_header_bg);
@@ -7095,7 +7095,7 @@ a.last-update {
         position: absolute;
         left: -2px;
         width: 6px;
-        height: 90px;
+        height: 82px;
         border-radius: 0;
         border: none;
         margin-left: 0;
