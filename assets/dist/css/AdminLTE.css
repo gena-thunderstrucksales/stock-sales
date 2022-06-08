@@ -1857,7 +1857,6 @@ the class .animated-dropdown-menu to the .dropdown-menu ul (or ol)*/
     position: relative;
     width: 100%;
     text-align: left;
-    margin-bottom: 20px;
 }
 .table-report .box-header {
     position: relative!important;
@@ -6857,7 +6856,6 @@ div.dataTables_wrapper div.dataTables_filter input {width: 200px !important;}
 div#box-header,
 div#box-header-total {
     padding-top: 20px;
-    position: absolute;
 }
 #tableTopPerformingProduct_wrapper .row:nth-child(3) {
     /* background: #fff; */
