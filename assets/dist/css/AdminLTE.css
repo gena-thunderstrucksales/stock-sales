@@ -285,10 +285,6 @@ input + a {color: var(--text_main);}
 .main-header .navbar-right {
     float: right;
 }
-.account-links {
-    display: inline-block;
-    vertical-align: middle;
-}
 
 @media (max-width: 991px) {
     .main-header .navbar-custom-menu a,
@@ -6162,59 +6158,40 @@ table.text-center th {
     margin-left: -20px;
     display: none;
 }
-
-.sidebar {
-    height: unset!important;
-}
-
-.userCircle {
-    border-radius: 50%;
-    width: 36px;
-    height: 36px;
-    padding: 3px;
-    background: var(--highlight);
-    color: white;
-    text-align: center;
-    font-size: 22px;
-}
-
+.sidebar {height: unset!important;}
 .footer-menu .row {
     margin-right: 0px;
     margin-left: 20px;
     margin-top: 35px;
 }
 
-.user-label-menu {
-    color: #fff;
-    margin-bottom: 10px;
-}
+.user-label-menu {color: #fff; margin-bottom: 10px;}
 
-.col-xs-5 a span {
-    text-decoration: underline;
-}
+.col-xs-5 a span {text-decoration: underline;}
+.sign-out {top: 39px; text-decoration: underline;}
 
-.sign-out {
-    top: 39px;
-    text-decoration: underline;
-}
+.top-menu img {margin-left: 250px; padding: 5px;}
+.login-menu-top {top: 20px;}
+.col-xs-2.login-menu-top {bottom: 25%;}
 
-.top-menu img {
-    margin-left: 250px;
-    padding: 5px;
+.welcome-user .account-links {
+    display: inline-block;
+    vertical-align: middle;
 }
-
-.login-menu-top {
-    top: 20px;
-}
-
-.col-xs-2.login-menu-top {
-    bottom: 25%;
-}
-
 .welcome-user a {
-    top: 9px;
     position: relative;
     font-style: italic;
+}
+.userCircle {
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    padding: 3px;
+    margin: 0 6px;
+    background: var(--highlight);
+    color: white;
+    text-align: center;
+    font-size: 22px;
 }
 
 .user-top-menu {
@@ -7053,7 +7030,6 @@ a.last-update {
         left: 20px !important;
         float: left;
     }
-    .login-menu-top {top: 10px;}
     .w-40 {width: unset !important;}
 }
 

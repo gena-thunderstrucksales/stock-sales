@@ -11,7 +11,7 @@
       </a>
       </div>
 
-      <div class="col-xs-6 col-sm-4 col-lg-3 login-menu-top ">
+      <div class="col-xs-6 col-sm-4 col-lg-3 login-menu-top text-right">
         <div class="row welcome-user">
           <div class="account-links">
             <a class="background-desktop">Welcome</a>
