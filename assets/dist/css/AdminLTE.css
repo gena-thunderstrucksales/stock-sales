@@ -6114,6 +6114,7 @@ table.text-center th {
 .col-xs-5 a span {text-decoration: underline;}
 .sign-out {top: 39px; text-decoration: underline;}
 
+.top-menu img {transform: scale(0.625);}
 .login-menu-top {top: 20px;}
 .col-xs-2.login-menu-top {bottom: 25%;}
 
