@@ -6191,6 +6191,7 @@ div.dataTables_wrapper div.dataTables_filter input {
 }
 #manageTable_wrapper .row:first-child,
 #docTable_wrapper .row:first-child {position: relative; overflow: auto; margin: 0;}
+#docTable_wrapper .row:first-child>div {padding: 0;}
 #manageTable_wrapper .row:first-child>div:first-child,
 #docTable_wrapper .row:first-child>div:first-child {float: left; width: auto; margin-right: 7px;}
 #manageTable_wrapper .row:first-child>div:last-child,
@@ -6652,7 +6653,6 @@ div.dataTables_scrollHead table.table-bordered {background-color: var(--backgrou
     border-bottom-width: 1px !important;
     border-bottom: 1px solid var(--block_header_bg);
 }
-div#docTable_length {margin-left: 10px;}
 
 .carousel-control {
     padding-top: 5%;
@@ -7008,7 +7008,6 @@ a.last-update {
     td.col-xs-12.name-product-item-table {border-top: 1px solid var(--block_header_bg)!important;}
     .name-product-item-table {border-top: 5px solid green;}
     tbody {background-color: var(--background_desktop);}
-    div#docTable_length {margin-left: 0px !important;}
     .custom-file-input::before {padding: 30px;}
     .login-box,
     .register-box {
