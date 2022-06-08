@@ -285,6 +285,10 @@ input + a {color: var(--text_main);}
 .main-header .navbar-right {
     float: right;
 }
+.account-links {
+    display: inline-block;
+    vertical-align: middle;
+}
 
 @media (max-width: 991px) {
     .main-header .navbar-custom-menu a,
@@ -1694,7 +1698,7 @@ the class .animated-dropdown-menu to the .dropdown-menu ul (or ol)*/
     border: 1px solid var(--block_border);
     border-radius: 3px;
     background: var(--block_header_bg);
-    margin-bottom: 5px;
+    margin-bottom: 16px;
     width: 100%;
     border-radius: var(--radius_border);
 }
@@ -1797,15 +1801,8 @@ the class .animated-dropdown-menu to the .dropdown-menu ul (or ol)*/
     border: 0;
     box-shadow: none;
 }
-
-.box.box-solid[class*='bg']>.box-header {
-    color: #fff;
-}
-
-.box .box-group>.box {
-    margin-bottom: 5px;
-}
-
+.box.box-solid[class*='bg']>.box-header {color: #fff;}
+.box .box-group>.box {margin-bottom: 16px;}
 .box .knob-label {
     text-align: center;
     color: #333;
@@ -1813,7 +1810,6 @@ the class .animated-dropdown-menu to the .dropdown-menu ul (or ol)*/
     font-size: 12px;
     margin-bottom: 0.3em;
 }
-
 .box>.overlay,
 .overlay-wrapper>.overlay,
 .box>.loading-img,
@@ -2736,7 +2732,6 @@ the class .animated-dropdown-menu to the .dropdown-menu ul (or ol)*/
     border-top: 0;
     border-left-color: #3c8dbc;
 }
-
 .nav-stacked>li.header {
     border-bottom: 1px solid #ddd;
     color: #777;
@@ -6345,13 +6340,12 @@ th.sorting {
 .pagination>.disabled>span,
 .pagination>.disabled>span:focus,
 .pagination>.disabled>span:hover {
-    background-color: var(--block_header_bg);
-    border-color: var(--highlight);
-    color: var(--highlight);
+    background-color: var(--button_disabled);
+    border-color: var(--button_disabled);
+    color: var(--bg_main);
     border-radius: 50%;
     text-align: center;
 }
-
 .numberCircle {
     border-radius: 50%;
     width: 36px;
@@ -6363,7 +6357,6 @@ th.sorting {
     text-align: center;
     font: 32px Arial, sans-serif;
 }
-
 .pagination>li:first-child>a,
 .pagination>li:first-child>span {
     border-radius: 50%;
@@ -6379,12 +6372,10 @@ th.sorting {
     overflow: hidden;
     color: var(--highlight);
 }
-
 .pagination>li>a,
 .pagination>li>span {
     margin-left: 0px;
 }
-
 .pagination>li:last-child>a,
 .pagination>li:last-child>span {
     border-radius: 50%;
