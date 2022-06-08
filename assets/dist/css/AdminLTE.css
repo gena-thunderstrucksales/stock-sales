@@ -6308,7 +6308,8 @@ th.sorting {
     overflow: hidden;
     color: var(--highlight);
 }
-.pagination>li:first-child>a:hover {background-image: url('../img/table/arrow-previos.png');}
+.pagination>li:first-child>a:hover,
+.pagination>li:first-child>span:hover {background-image: url('../img/table/arrow-previos.png');}
 .pagination>li>a,
 .pagination>li>span {
     margin-left: 0px;
@@ -6328,7 +6329,8 @@ th.sorting {
     overflow: hidden;
     color: var(--highlight);
 }
-.pagination>li:last-child>a:hover {background-image: url('../img/table/arrow-next.png');}
+.pagination>li:last-child>a:hover,
+.pagination>li:last-child>span:hover {background-image: url('../img/table/arrow-next.png');}
 select.input-sm {
     -webkit-appearance: none;
     -moz-appearance: none;
