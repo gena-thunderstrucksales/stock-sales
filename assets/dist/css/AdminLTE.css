@@ -6211,11 +6211,7 @@ div.dataTables_wrapper div.dataTables_length select {height: 35px;}
     width: 100% !important;
     border-width: 0;
 }
-div#manageTable_wrapper {
-    padding-left: 2px;
-    padding-right: 2px;
-    padding-top: 15px;
-}
+div#manageTable_wrapper {padding: 4px 2px 0 2px;}
 table.table-bordered.dataTable th,
 table.table-bordered.dataTable td {
     border-left-width: 0;
@@ -6228,7 +6224,6 @@ table.dataTable thead .sorting_asc_disabled:after,
 table.dataTable thead .sorting_desc_disabled:after {
     display: none !important;
 }
-
 .table-bordered>thead>tr>td,
 .table-bordered>thead>tr>th {
     border-bottom-width: 0px !important;
@@ -6854,7 +6849,8 @@ div.dataTables_wrapper div.dataTables_filter input {width: 200px !important;}
 .table-striped>tbody>tr:nth-of-type(odd) {background-color: #f9f9f9;}
 div#box-header,
 div#box-header-total {
-    padding-top: 20px;
+    padding: 20px 0;
+    border-bottom: 1px solid var(--block_border);
 }
 #tableTopPerformingProduct_wrapper .row:nth-child(3) {
     /* background: #fff; */
@@ -7021,8 +7017,7 @@ a.last-update {
     }
     #add_item {
         right: 10px;
-        top: 0px;
-        float: right;
+        top: 10px;
     }
     div#manageTable_filter {left: 25px;}
     .btn {
@@ -7061,7 +7056,6 @@ a.last-update {
     .table>thead>tr>th {
         padding-right: 0px !important;
     }
-    div#manageTable_wrapper {padding-top: 0px;}
     div#tableReport_filter {
         top: 15px;
         position: relative;
