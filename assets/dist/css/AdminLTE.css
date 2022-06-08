@@ -6190,7 +6190,7 @@ div.dataTables_wrapper div.dataTables_filter input {
     height: 34px;
 }
 #manageTable_wrapper .row:first-child {position: relative; overflow: auto; margin: 0;}
-#manageTable_wrapper .row:first-child>div:first-child {float: left; width: auto;}
+#manageTable_wrapper .row:first-child>div:first-child {float: left; width: auto; margin-right: 7px;}
 #manageTable_wrapper .row:first-child>div:last-child {float: right; width: auto;}
 #manageTable_wrapper .col-sm-6 {
     width: 0%;
@@ -6214,7 +6214,7 @@ div.dataTables_wrapper div.dataTables_length select {height: 35px;}
     width: 100% !important;
     border-width: 0;
 }
-div#manageTable_wrapper {padding: 4px 2px 0 2px;}
+div#manageTable_wrapper {padding: 5px 2px 0 2px;}
 table.table-bordered.dataTable th,
 table.table-bordered.dataTable td {
     border-left-width: 0;
@@ -6784,8 +6784,8 @@ input#userfile {
 div#manageTable_filter {position: relative;}
 #add_item {
     position: absolute;
-    right: 1%;
-    top: 15px;
+    right: 8px;
+    top: 18px;
 }
 a.btn.btn-primary {
     right: 1px;
@@ -7088,4 +7088,28 @@ a.last-update {
         margin-top: 0;
         transform: translateY(-34px);
     }
+}
+
+
+@media (max-width: 560px) {
+
+    .box-header .box-title, 
+    .box-header>.fa, 
+    .box-header>.glyphicon, 
+    .box-header>.ion {
+        display: block;
+        text-align: center;
+    }
+    div#box-header {
+        border-bottom: none;
+    }
+    #add_item {
+        position: relative;
+        right: initial;
+        top: initial;
+        display: block;
+        width: 100%;
+        border-bottom: 1px solid var(--block_border);
+    }
+
 }
