@@ -7111,11 +7111,11 @@ a.last-update {
         width: 100%;
         border-bottom: 1px solid var(--block_border);
     }
-    #add-item a.btn {
+    #add_item a.btn {
         position: relative;
         right: initial;
         margin: 0 auto;
     }
-    #add-item br {display: none;}
+    #add_item br {display: none;}
 
 }
