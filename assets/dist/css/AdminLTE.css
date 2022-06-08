@@ -6347,7 +6347,7 @@ select.input-sm {
 .label-delivered {background-color: var(--success);}
 .label-canceled {background-color: var(--warning);}
 .label-base-status.label-panding ~ span {color: var(--pending);}
-.label-base-status.label-info ~ span {color: var(--info);}
+.label-base-status.label-approved ~ span {color: var(--info);}
 .label-base-status.label-shipped ~ span {color: var(--caution);}
 .label-base-status.label-delivered ~ span {color: var(--success);}
 .label-base-status.label-canceled ~ span {color: var(--warning);}
@@ -7095,11 +7095,11 @@ a.last-update {
         position: absolute;
         left: -2px;
         width: 6px;
-        height: 82px;
+        height: 88px;
         border-radius: 0;
         border: none;
         margin-left: 0;
         margin-top: 0;
-        transform: translateY(-35px);
+        transform: translateY(-34px);
     }
 }
