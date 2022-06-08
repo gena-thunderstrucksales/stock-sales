@@ -6754,6 +6754,7 @@ a#fill_all_products {
 .btn-long {float: right;}
 .treeview-menu img {margin-right: 10px;}
 .treeview-menu img:before {
+    content: '';
     position: absolute;
     width: 20px;
     height: 20px;
