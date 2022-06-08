@@ -6215,7 +6215,6 @@ div.dataTables_wrapper div.dataTables_length select {height: 35px;}
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
-#manageTable_info {display: none;}
 #manageTable {
     width: 100% !important;
     border-width: 0;
@@ -6253,7 +6252,10 @@ th.sorting {
     background-color: var(--background_desktop);
 }
 
-.dataTables_wrapper>.row:last-child {background: var(--block_header_bg);}
+.dataTables_wrapper>.row:last-child {
+    padding: 5px 0 0;
+    background: var(--block_header_bg) !important;
+}
 .pagination>.active>a,
 .pagination>.active>a:focus,
 .pagination>.active>a:hover,
@@ -6313,7 +6315,7 @@ th.sorting {
 .pagination>li:last-child>a,
 .pagination>li:last-child>span {
     border-radius: 50%;
-    background-image: url('../img/table/arrow-next.png');
+    background-image: url('../img/table/arrow-next-white.png');
     background-repeat: no-repeat;
     background-position: center;
     /* shows image */
@@ -6325,7 +6327,8 @@ th.sorting {
     overflow: hidden;
     color: var(--highlight);
 }
-
+.pagination>li:last-child>a:hover,
+.pagination>li:last-child>span:hover {background-image: url('../img/table/arrow-next.png');}
 select.input-sm {
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -6538,7 +6541,6 @@ ul.wysihtml5-toolbar>li {padding: 5px;}
     border-bottom: 1px solid var(--block_header_bg);
     padding-bottom: 10px !important;
 }
-div.dataTables_wrapper div.dataTables_info {display: none;}
 h3.box-title {
     margin-top: 20px;
     margin-bottom: 20px;
