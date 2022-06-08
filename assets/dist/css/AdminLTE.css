@@ -6189,9 +6189,12 @@ div.dataTables_wrapper div.dataTables_filter input {
     background-color: var(--background_desktop);
     height: 34px;
 }
-#manageTable_wrapper .row:first-child {position: relative; overflow: auto; margin: 0;}
-#manageTable_wrapper .row:first-child>div:first-child {float: left; width: auto; margin-right: 7px;}
-#manageTable_wrapper .row:first-child>div:last-child {float: right; width: auto;}
+#manageTable_wrapper .row:first-child,
+#docTable_wrapper .row:first-child {position: relative; overflow: auto; margin: 0;}
+#manageTable_wrapper .row:first-child>div:first-child,
+#docTable_wrapper .row:first-child>div:first-child {float: left; width: auto; margin-right: 7px;}
+#manageTable_wrapper .row:first-child>div:last-child,
+#docTable_wrapper .row:first-child>div:last-child {float: right; width: auto;}
 #manageTable_wrapper .col-sm-6 {
     width: 0%;
     padding-right: 0px;
@@ -6807,6 +6810,9 @@ div#manageTable_length {position: relative;}
 .select2-container {display: table-cell !important;}
 #docTable .select2-container {display: inline-block !important;}
 .group-selection .select2-container {width: 25%!important;}
+
+
+.form-horizontal {position: relative; margin-top: 32px;}
 
 
 /*iPad*/
