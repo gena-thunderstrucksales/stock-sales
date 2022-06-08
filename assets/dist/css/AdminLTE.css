@@ -6634,9 +6634,11 @@ div.dataTables_scrollHead table.table-bordered {background-color: var(--backgrou
 .total-order {
     float: right;
     display: table;
+    margin-top: 32px;
     border: 1px solid var(--block_border);
 }
-.total-order a {color: var(--text_main);}
+.total-order:marker {display: none;}
+.total-order a {color: var(--block_border);}
 .total-order input {
     position: relative;
     height: auto;
