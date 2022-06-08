@@ -6189,6 +6189,9 @@ div.dataTables_wrapper div.dataTables_filter input {
     background-color: var(--background_desktop);
     height: 34px;
 }
+#manageTable_wrapper .row:first-child {position: relative;}
+#manageTable_wrapper .row:first-child>div:first-child {float: left;}
+#manageTable_wrapper .row:first-child>div:first-child {float: right;}
 #manageTable_wrapper .col-sm-6 {
     width: 0%;
     padding-right: 0px;
@@ -6778,10 +6781,7 @@ input#userfile {
     margin-right: auto;
     cursor: pointer;
 }
-div#manageTable_filter {
-    position: relative;
-    left: 350px;
-}
+div#manageTable_filter {position: relative;}
 #add_item {
     position: absolute;
     right: 1%;
@@ -6792,10 +6792,7 @@ a.btn.btn-primary {
     position: absolute;
 }
 .w-40 {width: 30%;}
-div#manageTable_length {
-    right: -700px;
-    position: relative;
-}
+div#manageTable_length {position: relative;}
 .dataTables_scrollBody {
     margin: 0 auto 8px;
     border: 1px solid var(--block_border);
@@ -6952,9 +6949,7 @@ a.last-update {
 }
 
 @media (max-width: 1500px) {
-    #manageTable_wrapper .col-sm-6 {width: -webkit-fill-available;}
     #add_item .form-control {display: table!important;}
-    div#manageTable_length {right: -25px;}
     .form-inline .form-control {
         margin-bottom: 0px;
         margin-left: 5px;
@@ -6968,10 +6963,6 @@ a.last-update {
     .login-box,
     .register-box {
         width: 50%;
-    }
-    div#manageTable_filter {
-        left: 20px !important;
-        float: left;
     }
     .w-40 {width: unset !important;}
 }
@@ -7016,15 +7007,10 @@ a.last-update {
         padding: 5px;
     }
     table#docTable {background: beige !important;}
-    div#manageTable_length {
-        left: 20px;
-        position: relative;
-    }
     #add_item {
         right: 10px;
         top: 10px;
     }
-    div#manageTable_filter {left: 25px;}
     .btn {
         font-size: 10px;
         padding: 7px;
