@@ -6253,7 +6253,7 @@ th.sorting {
     background-color: var(--background_desktop);
 }
 
-.dataTables_wrapper>row:last-child {background: var(--block_header_bg);}
+.dataTables_wrapper>.row:last-child {background: var(--block_header_bg);}
 .pagination>.active>a,
 .pagination>.active>a:focus,
 .pagination>.active>a:hover,
