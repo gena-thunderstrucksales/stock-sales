@@ -6630,42 +6630,34 @@ div#otionsTable_wrapper {
 }
 div.dataTables_scrollHead table.table-bordered {background-color: var(--background_desktop) !important;}
 .row_selected {background-color: var(--block_header_bg) !important;}
+
 .total-order {
     float: right;
     display: table;
-    padding: 20px;
+    border: 1px solid var(--block_border);
 }
-
+.total-order a {color: var(--text_main);}
 .total-order input {
-    border: none;
     position: relative;
+    height: auto;
+    border: none;
 }
-
 .total-order .row {
+    padding: 4px 0;
     border-bottom-width: 1px !important;
     border-bottom: 1px solid var(--block_header_bg);
-    padding-bottom: 10px !important;
-    margin-top: 10px;
 }
-
-div#docTable_length {
-    margin-left: 10px;
-}
+div#docTable_length {margin-left: 10px;}
 
 .carousel-control {
     padding-top: 5%;
     width: 5%;
 }
-
-div#product_carousel {
-    top: 20%;
-}
-
+div#product_carousel {top: 20%;}
 a.right.carousel-control {
     margin-right: -15px;
     margin-top: 5px;
 }
-
 a.left.carousel-control {
     margin-left: -15px;
     margin-top: 5px;
@@ -6975,7 +6967,6 @@ a.last-update {
         display: table-cell;
         float: none;
     }
-    .total-order {float: right !important;}
     .login-box,
     .register-box {
         width: 50%;
@@ -7094,7 +7085,6 @@ a.last-update {
     .total-order {
         float: unset;
         display: list-item;
-        padding: 15px;
     }
     .skin-green .main-header .navbar .sidebar-toggle {width: 70px !important;}
     div#selecetTable_length {float: left;}
