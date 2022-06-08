@@ -6114,7 +6114,6 @@ table.text-center th {
 .col-xs-5 a span {text-decoration: underline;}
 .sign-out {top: 39px; text-decoration: underline;}
 
-.top-menu img {margin-left: 250px; padding: 5px;}
 .login-menu-top {top: 20px;}
 .col-xs-2.login-menu-top {bottom: 25%;}
 
@@ -7009,10 +7008,6 @@ a.last-update {
         width: 100%;
     }
     .w-40 {width: unset !important;}
-    .top-menu img {
-        margin-left: auto;
-        padding: 5px;
-    }
     table#docTable {background: beige !important;}
     #add_item {
         right: 10px;
