@@ -6190,8 +6190,8 @@ div.dataTables_wrapper div.dataTables_filter input {
     background-color: var(--background_desktop);
     height: 34px;
 }
-#manageTable_wrapper .row:first-child,
-#docTable_wrapper .row:first-child {position: relative; overflow: auto; margin: 0;}
+#manageTable_wrapper>.row,
+#docTable_wrapper>.row {position: relative; overflow: auto; margin: 0;}
 #docTable_wrapper .row:first-child>div {padding: 0;}
 #manageTable_wrapper .row:first-child>div:first-child,
 #docTable_wrapper .row:first-child>div:first-child {float: left; width: auto; margin-right: 7px;}
