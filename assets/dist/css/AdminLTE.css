@@ -6544,8 +6544,6 @@ div#docTable_wrapper {
     background-color: var(--background_desktop);
     border-radius: 7px;
     cursor: pointer;
-    margin-top: 30px;
-    padding-top: 10px;
 }
 div#docTable_wrapper tr {background-color: var(--background_desktop);}
 div#selecetTable_wrapper tr {
