@@ -6753,6 +6753,12 @@ a#fill_all_products {
 }
 .btn-long {float: right;}
 .treeview-menu img {margin-right: 10px;}
+.treeview-menu img:before {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: var(--bg_main);
+}
 td input[readonly] {padding-left: 0 !important;}
 div#tableReport_filter {display: flow-root;}
 .dt-buttons button {
