@@ -1852,12 +1852,11 @@ the class .animated-dropdown-menu to the .dropdown-menu ul (or ol)*/
     clear: both;
 }
 .box-header {
-    color: #444;
+    color: var(--text_main);
     display: block;
     position: relative;
     width: 100%;
     text-align: left;
-    margin-bottom: 20px;
 }
 .table-report .box-header {
     position: relative!important;
@@ -1892,7 +1891,7 @@ the class .animated-dropdown-menu to the .dropdown-menu ul (or ol)*/
     right: 0;
     left: auto;
 }
-.box-header>.box-tools .dropdown-menu>li>a {color: #444 !important;}
+.box-header>.box-tools .dropdown-menu>li>a {color: var(--text_main);}
 .btn-box-tool {
     padding: 5px;
     font-size: 12px;
