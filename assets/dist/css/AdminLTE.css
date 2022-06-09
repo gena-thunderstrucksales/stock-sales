@@ -5944,15 +5944,6 @@ th.sorting {
     padding: 5px 0 0;
     background: var(--block_header_bg) !important;
 }
-.pagination>li>a,
-.pagination>li>a:focus,
-.pagination>li>a:hover,
-.pagination>li>span,
-.pagination>li>span:focus,
-.pagination>li>span:hover {
-    background: var(--background_desktop);
-    color: var(--text_main);
-}
 .pagination>.active>a,
 .pagination>.active>a:focus,
 .pagination>.active>a:hover,
