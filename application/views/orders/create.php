@@ -210,7 +210,7 @@
                                     </div>
 
                                     <div class="row padding-row ">
-                                        <div class="col-xs-12 col-sm-6 col-lg-5 padding-row">
+                                        <div class="col-xs-12 col-sm-6">
                                             <table id="selecetTable" class="table table-bordered ">
                                                 <thead>
                                                     <tr>
@@ -221,7 +221,7 @@
                                             </table>
                                         </div>
 
-                                        <div class="col-xs-12 col-sm-6 col-lg-6 padding-row">
+                                        <div class="col-xs-12 col-sm-6">
                                             <table id="optionsProductTable" class="table table-bordered">
                                                 <thead>
                                                     <tr>
