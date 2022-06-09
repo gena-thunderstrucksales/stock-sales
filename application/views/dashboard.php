@@ -1,4 +1,4 @@
-<div class="content-wrapper">
+<div class="dashboard content-wrapper">
   <!-- Main content -->
   <section class="content">
     <!-- Small boxes (Stat box) -->
