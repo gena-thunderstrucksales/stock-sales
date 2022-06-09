@@ -123,7 +123,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row padding-row dashed-line ">
+                                <div class="dashed-line">
                                     <div class="col-xs-5 col-sm-5 col-lg-10">
                                         <h4>APPLY TO SPECIFIC PRODUCT</h4>
                                     </div>
