@@ -6116,11 +6116,9 @@ select.input-sm {
 .main-box-body {background-color: var(--background_desktop);}
 .main-box-body .form-group a {color: var(--text_secondary);}
 .box-header-over .box-header {
-    border-radius: 10px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 20px 10px;
+    margin: 0 0 16px;
+    border-radius: var(--border-radius);
     background-color: var(--block_header_bg);
 }
 .padding-row {padding-bottom: 8px;}
