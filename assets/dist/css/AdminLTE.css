@@ -6085,30 +6085,12 @@ select.input-sm {
     background-repeat: no-repeat;
     background-position: center;
 }
-.add-doc {
-    background-image: url('../img/table/add-doc.png');
-    cursor: pointer;
-}
-.edit-doc {
-    background-image: url('../img/table/edit-doc.png');
-    cursor: pointer;
-}
-.print-doc {
-    background-image: url('../img/table/print-doc.png');
-    cursor: pointer;
-}
-.remove-doc {
-    background-image: url('../img/table/remove-doc.png');
-    cursor: pointer;
-}
-.select-menu {
-    background-image: url('../img/table/select.png');
-    cursor: pointer;
-}
-.dollar {
-    background-image: url('../img/table/dollar.png');
-    cursor: pointer;
-}
+.add-doc {background-image: url('../img/table/add-doc.png'); cursor: pointer;}
+.edit-doc {background-image: url('../img/table/edit-doc.png'); cursor: pointer;}
+.print-doc {background-image: url('../img/table/print-doc.png'); cursor: pointer;}
+.remove-doc {background-image: url('../img/table/remove-doc.png'); cursor: pointer;}
+.select-menu {background-image: url('../img/table/select.png'); cursor: pointer;}
+.dollar {background-image: url('../img/table/dollar.png'); cursor: pointer;}
 .pagination>li>a,
 .pagination>li>span {
     border: 0px solid #ddd
@@ -6116,9 +6098,9 @@ select.input-sm {
 .main-box-body {background-color: var(--background_desktop);}
 .main-box-body .form-group a {color: var(--text_secondary);}
 .box-header-over .box-header {
-    padding: 20px 10px;
+    padding: 20px 10px 16px;
     margin: 0 0 16px;
-    border-radius: var(--border-radius);
+    border-radius: var(--radius_border);
     background-color: var(--block_header_bg);
 }
 .padding-row {padding-bottom: 8px;}
