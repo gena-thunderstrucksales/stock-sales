@@ -33,7 +33,7 @@
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <img src="<?php echo base_url('/assets/images/app/logo-login.png'); ?>" width="250" height="200"></a>
+    <img src="<?php echo base_url('/assets/images/app/logo-login.png'); ?>" width="251" height="56"></a>
   </div>
   <!-- /.login-logo -->
   <div class="login-box-body">
