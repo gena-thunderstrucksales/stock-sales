@@ -5944,6 +5944,11 @@ th.sorting {
     padding: 5px 0 0;
     background: var(--block_header_bg) !important;
 }
+.pagination>li>a:hover,
+.pagination>li>span:hover {
+    background: #fff;);
+    color: var(--highlight);
+}
 .pagination>.active>a,
 .pagination>.active>a:focus,
 .pagination>.active>a:hover,
