@@ -5887,15 +5887,32 @@ div.dataTables_wrapper div.dataTables_filter input {
 #manageTable_wrapper>.row,
 #docTable_wrapper>.row,
 #optionsProductTable_wrapper>.row,
-table.table tr {position: relative; overflow: auto; margin: 0;}
+#selecetTable_wrapper>.row,
+table.table tr {
+    position: relative; 
+    overflow: auto; 
+    margin: 0;
+}
 #docTable_wrapper .row:first-child>div,
-#optionsProductTable_wrapper .row:first-child>div {padding: 0;}
+#optionsProductTable_wrapper .row:first-child>div,
+#selecetTable_wrapper .row:first-child>div {
+    padding: 0;
+}
 #manageTable_wrapper .row:first-child>div:first-child,
 #docTable_wrapper .row:first-child>div:first-child,
-#optionsProductTable_wrapper .row:first-child>div:first-child {float: left; width: auto; margin-right: 7px;}
+#optionsProductTable_wrapper .row:first-child>div:first-child,
+#selecetTable_wrapper .row:first-child>div:first-child {
+    float: left; 
+    width: auto; 
+    margin-right: 7px;
+}
 #manageTable_wrapper .row:first-child>div:last-child,
 #docTable_wrapper .row:first-child>div:last-child,
-#optionsProductTable_wrapper .row:first-child>div:last-child {float: right; width: auto;}
+#optionsProductTable_wrapper .row:first-child>div:last-child,
+#selecetTable_wrapper .row:first-child>div:last-child {
+    float: right; 
+    width: auto;
+}
 #manageTable_wrapper .col-sm-6 {
     width: 0%;
     padding-right: 0px;
