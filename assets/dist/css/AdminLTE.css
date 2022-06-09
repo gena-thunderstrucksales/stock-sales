@@ -3259,6 +3259,7 @@ table.text-center th {
 ---------------------------------------------------- */
 .dashboard .dataTables_info {display: none;}
 .dashboard .dataTables_paginate {display: none;}
+.dashboard .dataTables_wrapper>.row:last-child {padding: 0;}
 
 
 /* Page: Invoice
