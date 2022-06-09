@@ -6114,7 +6114,7 @@ select.input-sm {
     border: 0px solid #ddd
 }
 .main-box-body {background-color: var(--background_desktop);}
-.main-box-body a {color: var(--text_secondary);}
+.main-box-body .form-group a {color: var(--text_secondary);}
 .box-header-over .box-header {
     border-radius: 10px;
     padding-top: 20px;
