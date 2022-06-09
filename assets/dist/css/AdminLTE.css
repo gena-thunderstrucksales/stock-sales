@@ -6477,7 +6477,7 @@ a.btn.btn-primary {
 .w-40 {width: 30%;}
 div#manageTable_length {position: relative;}
 .dataTables_scrollBody {
-    margin: 0 auto 8px;
+    margin: 0 auto;
     border: 1px solid var(--block_border);
 }
 .select2-container {display: table-cell !important;}
