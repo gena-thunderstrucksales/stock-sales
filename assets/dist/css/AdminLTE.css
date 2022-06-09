@@ -5893,6 +5893,12 @@ table.table tr {
     overflow: auto; 
     margin: 0;
 }
+#manageTable_wrapper>.row>.col-sm-12,
+#docTable_wrapper>.row>.col-sm-12,
+#optionsProductTable_wrapper>.row>.col-sm-12,
+#selecetTable_wrapper>.row>.col-sm-12 {
+    padding: 0;
+}
 #docTable_wrapper .row:first-child>div,
 #optionsProductTable_wrapper .row:first-child>div,
 #selecetTable_wrapper .row:first-child>div {
