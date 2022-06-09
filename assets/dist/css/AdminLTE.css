@@ -6127,10 +6127,6 @@ select.input-sm {
     top: 45%;
 }
 .box-body p {color: var(--warning)}
-.dataTables_scroll {
-    padding-left: 5px;
-    padding-right: 5px;
-}
 .block-item .btn-primary-item-form {
     margin-top: 30px;
     margin-bottom: 40px;

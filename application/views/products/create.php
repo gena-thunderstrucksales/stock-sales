@@ -104,7 +104,7 @@
                 <div class="dashed-line ">
                   <h3>PRODUCT OPTIONS</h3>
                   <div class="block-item">
-                    <div class="table-white">
+                    <div>
                       <h4>PRODUCT SIZE</h4>
                       <table id="docTable" class="table table-bordered ">
                         <thead>
