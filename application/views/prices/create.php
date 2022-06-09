@@ -147,12 +147,12 @@
                                 </thead>
                             </table>
 
-                            <a>User name</a><br>
+                            <?php /* <a>User name</a><br>
                             <?php echo $username ?>
                             <div class="box-footer">
                                 <button type="submit" class="btn btn-primary">Save Price</button>
                                 <a href="<?php echo base_url('prices/') ?>" class="btn btn-warning">Back</a>
-                            </div>
+                            </div> */ ?>
                     </form>
                 </div>
             </div>
