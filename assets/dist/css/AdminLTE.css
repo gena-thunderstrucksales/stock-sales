@@ -2411,7 +2411,7 @@ the class .animated-dropdown-menu to the .dropdown-menu ul (or ol)*/
 
 /* Component: alert
 ------------------------------------------------------------ */
-.alert {border-radius: 3px;}
+.alert {border-radius: var(--radius_border);}
 .alert h4 {font-weight: 600;}
 .alert .icon {margin-right: 10px;}
 .alert .close {
@@ -6137,11 +6137,6 @@ select.input-sm {
     top: 45%;
 }
 .box-body p {color: var(--warning)}
-.block-item {
-    border-radius: 10px;
-    border: 15px solid white;
-    background-color: var(--background_desktop);
-}
 .dataTables_scroll {
     padding-left: 5px;
     padding-right: 5px;
@@ -6312,10 +6307,7 @@ input#idProduct {padding: 0px;}
     max-width: 200px;
     margin: auto;
 }
-.block-item h4 {
-    background-color: white;
-    margin: 0px
-}
+.block-item h4 {margin: 0px}
 div#otionsTable_wrapper {
     background: white;
     text-align: left;
