@@ -3262,6 +3262,11 @@ table.text-center th {
 .dashboard .dataTables_wrapper>.row:last-child {padding: 0;}
 
 
+/* Page: Reports
+---------------------------------------------------- */
+.report-page .dataTables_info {display: none;}
+
+
 /* Page: Invoice
 ---------------------------------------------------- */
 .invoice {

@@ -1,5 +1,5 @@
 <!-- Content Wrapper. Contains page content -->
-<div class="content-wrapper">
+<div class="report-page content-wrapper">
   <!-- Main content -->
   <section class="content">
     <!-- Small boxes (Stat box) -->
