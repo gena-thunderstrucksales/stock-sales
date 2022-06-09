@@ -5946,7 +5946,7 @@ th.sorting {
 }
 .pagination>li>a:hover,
 .pagination>li>span:hover {
-    background: #fff;);
+    background: #fff;
     color: var(--highlight);
 }
 .pagination>.active>a,
