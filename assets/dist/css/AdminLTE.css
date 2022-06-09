@@ -6659,10 +6659,7 @@ a.last-update {
 
 @media (max-width: 1500px) {
     #add_item .form-control {display: table!important;}
-    .form-inline .form-control {
-        margin-bottom: 0px;
-        margin-left: 5px;
-    }
+    .form-inline .form-control {margin-bottom: 0px;}
     table td[class*=col-],
     table th[class*=col-] {
         position: static;
