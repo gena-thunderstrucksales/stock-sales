@@ -167,7 +167,7 @@
                     <br>
                     <div class="block-item">
                       <h4>NOTIFICATION EMAIL</h4>
-                      <div class=" table-white">
+                      <div>
                         <table id="docTable" class="  table table-bordered table-settings-notifications">
                           <thead>
                             <tr class=" row">
