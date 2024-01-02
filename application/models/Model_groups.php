@@ -59,13 +59,10 @@ class Model_groups extends CI_Model
 
 	public function getUserGroupByUserId($user_id) 
 	{
-		$sql = "SELECT * FROM user_group 
-		INNER JOIN groups ON groups.id = user_group.group_id 
-		WHERE user_group.user_id = ?";
+		$sql = "SELECT * FROM user_group INNER JOIN groups ON groups.id = user_group.group_id WHERE user_group.user_id = ?";
 		$query = $this->db->query($sql, array($user_id));
 		$result = $query->row_array();
 
 		return $result;
-
 	}
 }
