@@ -38,7 +38,7 @@
 
     --form_field_border: #ccc;
 
-    --radius_border: 6px;
+    --radius_border: 0px;
 }
 
 ::placeholder {
